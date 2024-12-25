@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO LOVES TO EXPLORE NEW TECHNOLOGIES",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -65,56 +65,84 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "devicon-python-plain colored"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C#",
+      fontAwesomeClassname: "devicon-csharp-plain colored"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "devicon-java-plain colored"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "devicon-cplusplus-plain colored"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "devicon-c-plain colored"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "devicon-django-plain colored"
+    },
+    {
+      skillName: "Flask",
+      fontAwesomeClassname: "devicon-flask-original colored"
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "devicon-tensorflow-original colored"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "devicon-javascript-plain colored"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "HTML5",
+      fontAwesomeClassname: "devicon-html5-plain colored"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "CSS3",
+      fontAwesomeClassname: "devicon-css3-plain colored"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "devicon-bootstrap-plain colored"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "MySQL",
+      fontAwesomeClassname: "devicon-mysql-plain colored"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "devicon-postgresql-plain colored"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "SQLite",
+      fontAwesomeClassname: "devicon-sqlite-plain colored"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: ".NET",
+      fontAwesomeClassname: "devicon-dot-net-plain colored"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: ".NET Core",
+      fontAwesomeClassname: "devicon-dotnetcore-plain colored"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Docker",
+      fontAwesomeClassname: "devicon-docker-plain colored"
+    },
+    {
+      skillName: "Spring",
+      fontAwesomeClassname: "devicon-spring-plain colored"
+    },
+    {
+      skillName: "OpenCV",
+      fontAwesomeClassname: "devicon-opencv-plain colored"
     }
   ],
   display: true // Set false to hide this section, defaults to true
