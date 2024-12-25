@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ali Altunoğlu",
+  title: "Hi all, I'm Ali Altunoğlu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm an ML/AI Engineer & Backend Developer from Turkey.I'm a fourth-year Software Engineering student with a strong passion for Computer Vision and Deep Learning."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1gO1Yzn7vTcUvDcDUY8ghAk9ISiPdZB4L/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/alialtunoglu",
+  linkedin: "https://www.linkedin.com/in/alialtunoglu/",
+  gmail: "alialtunoglu02@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -126,24 +126,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Karadeniz Technical University",
+      logo: require("./assets/images/karadeniz.png"),
+      subHeader: "Bachelor of Science in Software Engineering",
+      duration: "September 2021 - Present",
+      desc: "I am currently studying Software Engineering at Karadeniz Technical University. I have taken courses on algorithms, data structures, operating systems, and GPU-based parallel programming.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    
   ]
 };
 
@@ -153,16 +145,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Artifical Intelligence", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +166,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AI R&D Intern",
+      company: "SolonPort",
+      companylogo: require("./assets/images/solon.jpg"),
+      date: "September 2024 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Solon Port, I am working on optimizing container and ship placement using digital twin technology and genetic algorithms.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Machine Learning Intern",
+      company: "Sistek",
+      companylogo: require("./assets/images/sistek.jpg"),
+      date: "July 2024 – September 2024",
+      descBullets: [
+        "Developed and deployed machine learning models for material forecasting and fault code prediction optimizing model performance and accuracy.",
+        "Integrated models into a web environment using Docker and Flask, enabling real-time predictions for client applications."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer Intern",
+      company: "Turkish State Mint and Securty Printing",
+      companylogo: require("./assets/images/darphane.png"),
+      date: "July 2023 – August 2023",
+      descBullets: ["Developed a web-based document management system using PHP and MySQL, integrating MERNIS for person verification and a request tracking system for certificate stamping."
+        ,
+      ]
     }
   ]
 };
@@ -252,10 +247,13 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "AI Specialization Program ",
+      subtitle: [
+              "Selected as one of 120 participants in the exclusive Synchronous Group for the AI Specialization Program ",
+              "Engaged in basic training on algorithms, data structures, operating systems, and GPU-based parallel programming.",
+      ],
+        
+      image: require("./assets/images/sanayi.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -273,10 +271,10 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Docker Workshop",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Completed Certifcation from Docker Workshop.",
+      image: require("./assets/images/techcareer.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -287,9 +285,9 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Akbank Data Analysis Bootcamp",
+      subtitle: "Completed Certifcation from Akbank Data Analysis Bootcamp",
+      image: require("./assets/images/globalaihub.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
