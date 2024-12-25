@@ -195,7 +195,7 @@ const workExperiences = {
   experience: [
     {
       role: "AI R&D Intern",
-      company: "SolonPort",
+      company: "Solon",
       companylogo: require("./assets/images/sistek.jpg"),
       date: "September 2024 – Present",
       descBullets: [
