@@ -405,8 +405,14 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "@alialtunoglu52", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "elonmusk", // @ işareti olmadan kullanıcı adınız
+  display: false,
+  widgetOptions: {
+    height: '400',
+    theme: 'light',
+    transparent: true,
+    dnt: true
+  }
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
